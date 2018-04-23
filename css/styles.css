@@ -1,0 +1,235 @@
+
+/* 
+
+Aula 01 
+p{
+	font-family: tahoma;
+	color:blue;
+}
+
+
+
+Aula 02
+*{margin: 0; padding: 0; }   /* seletor universal
+
+h1{color: blue; font-size: 50px;} /* seletor tag
+p{color: green; font-size: 12px;}
+
+input[type="text"]{
+	width: 200px;
+	background-color: #ccc;
+	height: 30px;
+	border: none;
+}
+
+input[name="email"]{
+	width: 200px;
+	background-color: #ccc;
+	height: 30px;
+	border: none;
+}
+
+input[type="submit"]{
+	width: 50px;
+	background-color: green;
+	height: 35px;
+	border: none;
+	cursor:pointer;
+	color:#fff;
+}
+
+
+Aula 03
+h1, h2, p {color: red; text-align: center}  
+
+
+Aula 04
+.texto-principal{
+	color: red; 
+	text-align: center;
+}
+
+.fundo-principal{
+	background-color: green;
+	padding: 20px;
+}
+
+#conteudo{
+	background-color: blue;
+	padding: 20px;
+	color:green;
+
+}
+ 
+Aula 05
+#conteudo{
+	min-width: 500px;
+	max-width: 500px;
+	max-height: 400px;
+	min-height: 20px;
+ 	color:#fff;
+ 	background-color: green; 
+ 	padding: 20px
+ }
+
+
+Aula 06
+#exemplo{
+	background-color: green;
+	color:#fff;
+	width: 500px;
+	padding: 20px 20px 30px 20px;
+}
+
+#exemplo2{
+	background-color: red;
+	color:#fff;
+	width: 500px;
+	padding: 20px 20px 30px 20px;
+	margin: 20px 0px 20px 0px;
+}
+
+Aula 07
+p{
+	color:red;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 25px;
+	direction: ltr;
+	letter-spacing: 1px;
+	word-spacing: 0px;
+}
+h1{
+	text-align: left;
+	text-decoration: underline;
+	text-shadow: 1px 2px 2px black;
+}
+
+h2{
+	text-align: right;
+	text-decoration: overline;
+}
+h3{
+	text-align: center;
+	text-decoration: line-through;
+}
+
+Aula 08
+*{
+	box-sizing: border-box;
+}
+
+#conteudo{
+	background-color: red;
+	width: 500px;
+	padding: 20px;
+	box-shadow: 10px 10px 15px blue;
+
+}
+
+
+Aula 09
+#conteudo{
+	background-color: red;
+	width: 400px;
+	height: 70px;
+	overflow: auto;
+}
+
+#conteudo p{
+	opacity: 0.8;
+}
+Aula 10
+#bloco{
+	background-color: green;
+	width: 400px;
+	height: 150px;
+	border-radius: 20px 50px 20px 50px;
+}
+
+
+
+Aula 11
+*{font-size: 100%}
+p{
+	font-family: Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 2em;
+}
+*/
+*{font-size: 100%}
+@font-face{
+	font-family: funsized;
+	src:url("fonts/funsized-webfont.woff");
+}
+
+p{
+	font-family: funsized;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
