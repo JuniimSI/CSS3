@@ -157,16 +157,142 @@ p{
 	font-style: oblique;
 	font-size: 2em;
 }
-*/
+
+
+Aula 12
 *{font-size: 100%}
 @font-face{
 	font-family: funsized;
-	src:url("fonts/funsized-webfont.woff");
+	src:url(chasing_rabbits-webfont.woff);
 }
 
 p{
-	font-family: funsized;
+	font-family: 'Gugi', cursive;
 }
+
+
+
+Aula 13
+#cores{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(230, 78, 225, 0.5);
+}
+
+#gradient{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to top left, red, blue);
+}
+
+Aula 14
+#base{
+	background-color: green;
+	width: 600px;
+	height: 600px;
+}
+
+#esquerda{
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+#direita{
+	background-color: blue;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+
+
+Aula 15
+#conteudo{
+	background-color: red;
+	height: 600px;
+	width: 700px;
+	position:relative;
+}
+
+#texto{
+	width: 500px;
+	background-color: green;
+	position:fixed;
+	left: 0;
+	bottom:0px;
+}
+
+Aula 16
+
+#exemplo {
+	text-align: center;
+	border:solid 5px blue;
+	border-top: solid 5px green;
+	outline: double 5px gray;
+}
+
+
+Aula 17
+#exemplo{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transition: all 2s linear;
+}
+#exemplo:hover{
+	width: 350px;
+	background-color: green;
+	height: 350px;
+}
+*/
+body{
+	color: white;
+	font-style: bold;
+	font-size: 2em;
+	text-align: justify;
+	background: url(../img/background.png) center center/100% 100% no-repeat fixed;
+}
+p{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
