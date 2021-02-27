@@ -1,2 +1,3 @@
 # CSS3
-Estudo em CSS3
+
+Estudo simples e inicial em CSS3
